@@ -1,7 +1,4 @@
 const noblox = require('noblox.js')
-const dotenv = require('dotenv').config()
-
-const cookie = process.env.COOKIE
 
 var username = "JeRepito";
 
@@ -22,14 +19,6 @@ async function Thumb() {
 }
 
 Thumbnail = Thumb()
-
-noblox.setCookie(cookie).then(function() { 
-    console.log("Logged in successfully!")
-
-    Thumb()
-}).catch(function(err){
-    console.log(`Error loggin in, full error: ${err}`)
-})
 
 
 var http = require('http');
