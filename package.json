@@ -1,0 +1,11 @@
+{
+    "name": "my-awesome-package",
+    "version": "1.0.0",
+    "author": "Your Name <email@example.com>",
+    "dependencies": {
+        "express": "^4.18.2",
+        "fs": "^0.0.1-security",
+        "noblox": "^4.8.5",
+        "noblox.js": "^4.13.1"
+    }
+}
